@@ -1,0 +1,19 @@
+# variable format must be ${} and will use envsubst to replace the value from ECS task env
+
+LogLevel = "info"
+LogFormat = "text"
+
+[Fargate]
+    cluster = "${FARGATE_CLUSTER}"
+    region = "${FARGATE_REGION}"
+    subnet = "${FARGATE_SUBNET}"
+    securityGroup = "${FARGATE_SECURITY_GROUP}"
+    TaskDefinition = "${FARGATE_TASK_DEFINITION}"
+    EnablePublicIP = false
+
+[TaskMetadata]
+    Directory = "/tmp/"
+
+[SSH]
+    Username = "root"
+    Port = 22

@@ -1,0 +1,9 @@
+build-job:
+  tags: ["automation-team-aws"]
+  script:
+    - >-
+      /kaniko/executor
+      --context "${CI_PROJECT_DIR}"
+      --dockerfile "${CI_PROJECT_DIR}/Dockerfile"
+      --destination 635353606081.dkr.ecr.ap-southeast-1.amazonaws.com/telescope-ecr:testing
+
