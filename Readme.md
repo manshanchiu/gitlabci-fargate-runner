@@ -1,5 +1,11 @@
 # gitlab-runner on fargate
 
+## References
+1. [Autoscale on AWS fargate](https://docs.gitlab.com/runner/configuration/runner_autoscale_aws_fargate/)
+2. [AWS fargate custom executor](https://gitlab.com/gitlab-org/ci-cd/custom-executor-drivers/fargate)
+3. [Existing fargate sample](https://gitlab.com/aws-fargate-driver-demo)
+4. [IAM role on AWS ECS](https://docs.aws.amazon.com/AmazonECS/latest/userguide/task-iam-roles.html)
+5. [Kaniko](https://docs.gitlab.com/ee/ci/docker/using_kaniko.html)
 
 
 ## Notes

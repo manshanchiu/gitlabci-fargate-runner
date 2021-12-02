@@ -41,7 +41,7 @@ unregister_runner() {
 ###############################################################################
 register_runner() {
 
-    runner_identification="RUNNER_$(date +%s)"
+    runner_identification="FARGATE_RUNNER_$(date +%s)"
 
     # Uses the environment variable "GITLAB_REGISTRATION_TOKEN" to register the runner
 

@@ -72,6 +72,18 @@ RUN mkdir -p /kaniko/.docker \
     && echo '{"credsStore":"ecr-login"}' > /kaniko/.docker/config.json
 
 
+# ----------------------------------------
+# Install nodejs
+# ----------------------------------------
+RUN apt-get install -y nodejs npm
+
+# ----------------------------------------
+# Install serverless
+# ----------------------------------------
+RUN npm install serverless -g
+
+
+
 
 # -------------------------------------------------------------------------------------
 # Execute a startup script.
