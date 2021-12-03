@@ -18,3 +18,5 @@
 DOCKER_CONFIG = /kaniko/.docker/
 DOCKER_CREDENTIAL_GCR_CONFIG = /kaniko/.config/gcloud/docker_credential_gcr_config.json
 PATH = /go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin/:/kaniko
+
+4. must add CGO_ENABLED=0 for go build to prevent dynamic links to libc/libmusl.
