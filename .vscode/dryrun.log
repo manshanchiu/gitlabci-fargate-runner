@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/manshan.chiu/Desktop/gitlabci-fargate-runner'
+aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin 
+make: Leaving directory `/Users/manshan.chiu/Desktop/gitlabci-fargate-runner'
+ 

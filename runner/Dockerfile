@@ -1,6 +1,6 @@
-FROM gcr.io/kaniko-project/executor AS kaniko
+FROM gcr.io/kaniko-project/executor:v1.6.0 AS kaniko
 
-FROM golang:1.16.10
+FROM golang:1.18.4
 RUN apt-get update \
     && apt-get install -y python3 python3-pip zip jq 
 
@@ -42,6 +42,7 @@ RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.d
 RUN apt-get install git-lfs 
 RUN git lfs install --skip-repo
 ENV PATH="${PATH}:/usr/local/go/bin/"
+
 
 # ----------------------------------------
 # Install Terraform command

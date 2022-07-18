@@ -1,0 +1,2603 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Mon Jul 18 13:31:48 2022
+
+# Variables
+
+# environment
+PH_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/phstream/phwriter/config-ci.json
+# environment
+FETATR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fetatrstream/fetatrreader/config-ci.json
+# environment
+PC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pcstream/pcwriter/config-ci.json
+# environment
+ORION_COLLECTOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/cosmos/orion-collector/config-ci.json
+# environment
+MATCHING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-share/matching/config-ci.json
+# environment
+DBC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dbcstream/dbcreader/config-ci.json
+# environment
+GEP_SDK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/gep/service/config-ci.json
+# environment
+GRAB_GITLAB_ACCESS_TOKEN = 7rYEskjaURTjUjT4UQpi
+# automatic
+?F = $(notdir $?)
+# environment
+FOGA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fogastream/fogawriter/config-ci.json
+# environment
+XE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/xestream/xewriter/config-ci.json
+# environment
+GIDLOGIN_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gidloginstream/gidloginwriter/config-ci.json
+# environment
+RES_LOCKER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/resource-locker/config-ci.json
+# environment
+DCR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dcrstream/dcrreader/config-ci.json
+# environment
+GALLERIA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/econs-web/galleria/config-ci.json
+# environment
+FDCUISINE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcuisinestream/fdcuisinereader/config-ci.json
+# environment
+OVERWATCH_BOT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/sre/overwatch/bot/config-ci.json
+# environment
+INSTALLMENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/payouts/installment/installment-ci.json
+# environment
+DEVHOME_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pe/developer-home/config-ci.json
+# environment
+FOOD_REALTIME_MONITOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-realtime-monitor/config-ci.json
+# environment
+GME_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gmestream/gmewriter/config-ci.json
+# environment
+END_CDS_DDB_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/common/db/ddb/config-ci.json
+# environment
+RTSNROUT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtsnroutstream/rtsnroutwriter/config-ci.json
+# environment
+TICKET_PROXY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/cse/ticket-proxy/config-ci.json
+# environment
+SCYLLA_HOST = localhost
+# environment
+SPRINKLER_CDS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/functions/cds/config-ci.json
+# environment
+AUTHZ_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/iam/concedo/config-ci.json
+# environment
+FOCA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/focastream/focareader/config-ci.json
+# environment
+SHP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/shpstream/shpreader/config-ci.json
+# environment
+VW_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/vwstream/vwreader/config-ci.json
+# environment
+FDMF_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmfstream/fdmfreader/config-ci.json
+# environment
+ENTERPRISE_RCP_CONSUMER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/enterprise/gfb/receipt-consumer/config-ci.json
+# environment
+DEFENCE_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/defence-api/config-ci.json
+# environment
+DLP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dlpstream/dlpreader/config-ci.json
+# environment
+PPERGN_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppergnstream/ppergnreader/config-ci.json
+# environment
+AUDITLOG_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/web/audit_log/config-ci.json
+# environment
+DEXTER_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dexter-api/config-ci.json
+# environment
+BE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/bestream/bewriter/config-ci.json
+# environment
+AP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/apstream/apwriter/config-ci.json
+# environment
+BPL_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/bplstream/bplwriter/config-ci.json
+# environment
+DP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dpstream/dpwriter/config-ci.json
+# environment
+FCT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fctstream/fctwriter/config-ci.json
+# environment
+TRUSTCOUNTERSERVICE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/counter-service/config-ci.json
+# environment
+PGP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pgpstream/pgpwriter/config-ci.json
+# environment
+FEATURE_BANK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/featurebank/feature-bank-ci.json
+# environment
+FOOD_REVIEW_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/growth/food-review/config-ci.json
+# environment
+FDO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdostream/fdoreader/config-ci.json
+# environment
+LP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/lpstream/lpwriter/config-ci.json
+# environment
+FMP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fmpstream/fmpwriter/config-ci.json
+# environment
+MEX_INSIGN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/mex-corex/mex-insign/config-ci.json
+# environment
+POP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/popstream/popwriter/config-ci.json
+# environment
+PPI_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppistream/ppiwriter/config-ci.json
+# environment
+PARTNERGWCONTROLLER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/partner-gw/partner-gw-controller/config-ci.json
+# environment
+SPO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/spostream/spowriter/config-ci.json
+# environment
+PGCD_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pgcdstream/pgcdwriter/config-ci.json
+# environment
+HELA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/hela/config-ci.json
+# environment
+EXOM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/exomstream/gbsreader/config-ci.json
+# environment
+ 
+make: *** No rule to make target `all'.  Stop.
+
+BADGES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/growth/badges/config-ci.json
+# environment
+SCAFFOLD_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/scaffold/config-ci.json
+# environment
+UCM_MODE = development
+# environment
+SONAR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/sonar/config-ci.json
+# environment
+_ = /usr/bin/make
+# environment
+CE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cestream/cewriter/config-ci.json
+# environment
+POKEMASTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ssdlc/pokemaster/config-ci.json
+# environment
+OFFERS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/offers/config-ci.json
+# environment
+FOOD_PREPARATION_TASKPOOL_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-preparation-taskpool/config-ci.json
+# environment
+CM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cmstream/cmwriter/config-ci.json
+# environment
+MOBILITY_GW_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/mobility-gw/config-ci.json
+# environment
+KAFKA_HOST = localhost
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+E2E_DAX_MARKETPLACE_GANDALF_TEST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/qa-e2e/smoke/daxmarketplace/repo/config.json
+# environment
+LOCATION_ENGINE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/location-engine/config-ci.json
+# environment
+COMPTROLLER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/comptroller/config-ci.json
+# environment
+FOODMLT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-mlt/config-ci.json
+# environment
+NTRE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ntrestream/ntrewriter/config-ci.json
+# environment
+DISCOVERY_DS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/discovery/discovery-ds/config-ci.json
+# environment
+GHTHUMB_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/hitch/grab-thumb/grab-thumb-ci.json
+# environment
+FDMG_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmgstream/fdmgreader/config-ci.json
+# environment
+X_TRANSMITTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/transmitter/config-ci.json
+# environment
+GRABCAR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/vertical/grab-car/config-ci.json
+# environment
+MEDUSA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/medusa/config-ci.json
+# environment
+PASSENGERSERVICE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-api/passengerservice/server/config/config-ci.json
+# environment
+POI_FACTORY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/poi-factory/config-ci.json
+# environment
+BF_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/bfstream/bfwriter/config-ci.json
+# environment
+KAWAN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/growth/kawan/config-ci.json
+# environment
+CA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/castream/cawriter/config-ci.json
+# environment
+DA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dastream/dawriter/config-ci.json
+# environment
+GCCD_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gccdstream/gccdwriter/config-ci.json
+# environment
+FA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fastream/fawriter/config-ci.json
+# automatic
+@F = $(notdir $@)
+# environment
+HEDWIG_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rtc/hedwig/config-ci.json
+# environment
+UNIT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/unitstream/unitwriter/config-ci.json
+# environment
+FDCAMPR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcamprstream/fdcamprwriter/config-ci.json
+# environment
+MWT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mwtstream/mwtreader/config-ci.json
+# environment
+TEST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/commons/gtest/config-ci.json
+# environment
+GO111MODULE = off
+# environment
+DVS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dvsstream/dvsreader/config-ci.json
+# environment
+DAX_ALLOC_PREF_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/incentives/dax-alloc-pref/config-ci.json
+# environment
+WUKONG_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/wukong/config-ci.json
+# environment
+FDT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdtstream/fdtwriter/config-ci.json
+# environment
+SMART_CITY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/smart-city/config-ci.json
+# environment
+BAE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/baestream/baewriter/config-ci.json
+# environment
+END_CDATACLIENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/cdata/cdclient/config-ci.json
+# environment
+HEATMAPS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/incentives/heatmaps/config-ci.json
+# environment
+WHATNO_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/sre/whatno/config-ci.json
+# environment
+DAE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/daestream/daewriter/config-ci.json
+# environment
+GRABHITCH_SDK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/hitch/sdk-grab-hitch/config/grabhitchsdk-ci.json
+# environment
+GIDSDK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-id/sdk/gidsdk-ci.json
+# environment
+WA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/wastream/wawriter/config-ci.json
+# environment
+SHIELD_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/shield/config-ci.json
+# environment
+FUNDS_TRANSFER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/funds-transfer/config-ci.json
+# environment
+GMUEC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gmuecstream/gmuecwriter/config-ci.json
+# environment
+FOODRERANK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-rerank/config-ci.json
+# environment
+YIR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/discovery/yir/config-ci.json
+# environment
+ADS_ML_GATEWAY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/ads-ml-gateway/config-ci.json
+# environment
+MILO_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/marketplace/milo/config-ci.json
+# environment
+HITCHRECEIPTS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/hitch/hitchreceipts/config-ci.json
+# environment
+AL_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/alstream/alreader/config-ci.json
+# environment
+ROUTEENGINE_CLIENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/route-engine/sdk/config-ci.json
+# environment
+ADMANAGERUISERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/admanageruiserver/config-ci.json
+# environment
+DAPL_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/daplstream/daplwriter/config-ci.json
+# environment
+POI_COLLECTOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/poi-collector/config-ci.json
+# environment
+ 
+PO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/postream/poreader/config-ci.json
+# environment
+CSEREFUNDS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cserefundsstream/cserefundswriter/config-ci.json
+# environment
+GEO_TOOLS_DRIVER_LOCATION_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/geo-tools-driver-location/config-ci.json
+# environment
+MESH_POC_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/mesh-poc/config-ci.json
+# environment
+MAKELEVEL := 0
+# environment
+SDT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdtstream/sdtreader/config-ci.json
+# environment
+TOWKAY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pricing/towkay/config-ci.json
+# environment
+GRABSPOT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/whisper/grab-spot/config-ci.json
+# environment
+RTC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtcstream/rtcreader/config-ci.json
+# environment
+GRPCLUSTER_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/grpclusterstream/grpclusterwriter/config-ci.json
+# environment
+ENTERPRISE_SPOCK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/enterprise/enterprise-spock/config-ci.json
+# environment
+GRABCHAT_SERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-chat/proxy_server/grab-chat-server-ci.json
+# environment
+DCR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dcrstream/dcrwriter/config-ci.json
+# environment
+WEB_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/webstream/webreader/config-ci.json
+# environment
+FDIG_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdigstream/fdigwriter/config-ci.json
+# environment
+FORGE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/forge/config-ci.json
+# environment
+GRAB_VIEW_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/grab-view/config-ci.json
+# environment
+CPA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cpastream/cpawriter/config-ci.json
+# environment
+PF_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pfstream/pfreader/config-ci.json
+# environment
+SR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/srstream/srwriter/config-ci.json
+# environment
+XB_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/xbstream/xbwriter/config-ci.json
+# environment
+DL_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dlstream/dlreader/config-ci.json
+# environment
+GCOMM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-comm/grab-comm-ci.json
+# environment
+PATH = /Users/manshan.chiu/.sdkman/candidates/sbt/current/bin:/Users/manshan.chiu/.sdkman/candidates/java/current/bin:/usr/local/opt/mysql@5.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/manshan.chiu/arcanist/bin:/usr/local/protoc/bin:/Users/manshan.chiu/gopath/bin:/Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/scripts
+# environment
+HOME = /Users/manshan.chiu
+# environment
+FDCAMPR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcamprstream/fdcamprreader/config-ci.json
+# environment
+CONF_SERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/commons/util/grabrpc/etcd/config-ci.json
+# environment
+DFL_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dflstream/dflwriter/config-ci.json
+# environment
+GRABLOG_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/grab-log/grab-log-ci.json
+# environment
+CONCEDO_AMS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/iam/concedo-ams/config-ci.json
+# environment
+DG_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dgstream/dgwriter/config-ci.json
+# environment
+END_RATINGCLIENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/vietnam-rnd/grab-feedback/ratingclient/config-ci.json
+# environment
+CHRO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/chrostream/chroreader/config-ci.json
+# environment
+GRAB_FRAUD_SDK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/public/sdk-grab-fraud/config/grabfraud-sdk-ci.json
+ 
+# environment
+GROUPING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-share/grouping/config-ci.json
+# environment
+DR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/drstream/drwriter/config-ci.json
+# environment
+VR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/vrstream/vrwriter/config-ci.json
+# environment
+FDIMG_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdimgstream/fdimgwriter/config-ci.json
+# environment
+DAP_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/dap/config-ci.json
+# environment
+COGNITION_BACKEND_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/cognition-backend/config-ci.json
+# environment
+FB_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fbstream/fbwriter/config-ci.json
+# environment
+GE_WEBBOOKING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/express/grab-express-webbooking/config-ci.json
+# environment
+TRUST_ACTION_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/trust-action/config-ci.json
+# environment
+FOODCMSAPI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-cms-api/config-ci.json
+# environment
+SE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pricing/surge-engine/surge-engine-ci.json
+# environment
+PHB_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/phbstream/phbwriter/config-ci.json
+# environment
+POINTS_ISSUANCE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/saptf/points-issuance/config-ci.json
+# environment
+MYSQL_USER = root
+# environment
+PAYSI_AGENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-agent/paysi-agent-ci.json
+# environment
+LC_ALL = C
+# environment
+SEXTANT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/sextant/config-ci.json
+# environment
+UCMW_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ucmwstream/ucmwwriter/config-ci.json
+# environment
+SRE_MASTER_SCRIPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/sre/master-scripter/config-ci.json
+# environment
+FDF_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdfstream/fdfwriter/config-ci.json
+# environment
+REVAL_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/revalstream/revalreader/config-ci.json
+# environment
+REDEMPTION_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/redemptionstream/redemptionwriter/config-ci.json
+# environment
+ASGARD_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/voc_automation/asgard/config-ci.json
+# environment
+FMR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fmrstream/fmrwriter/config-ci.json
+# environment
+DLS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dlsstream/dlsreader/config-ci.json
+# environment
+END_CATCHERSERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/spartan/services/catcher/catchersvr/config-ci.json
+# environment
+CSEAP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cseapstream/cseapreader/config-ci.json
+# environment
+BCPE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/bcpestream/bcpereader/config-ci.json
+# environment
+PC_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/poi-collector/config/poi-ci.json
+# environment
+MEXSPOT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mexspotstream/mexspotreader/config-ci.json
+# environment
+GROCERYSHOPPER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grocery/grocery-shopper/config-ci.json
+# environment
+DBC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dbcstream/dbcwriter/config-ci.json
+# environment
+CLICKBAIT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/personalisation/clickbait/config-ci.json
+# environment
+REDEMPTION_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/redemptionstream/redemptionreader/config-ci.json
+# environment
+RR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rrstream/rrwriter/config-ci.json
+# environment
+FDI_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdistream/fdireader/config-ci.json
+# environment
+FPPSR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fppsrstream/fppsrreader/config-ci.json
+# environment
+ETD_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/transport/etd-api/config-ci.json
+# environment
+PANDORA_WORKER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/enterprise/pandora-worker/config-ci.json
+# environment
+FDCAMPU_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcampustream/fdcampuwriter/config-ci.json
+# environment
+OVERLAYADYENADAPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/overlay-adapters/adyen-adapter/config-ci.json
+# environment
+TRUSTPAYMENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/trust-payment/config-ci.json
+# environment
+CBNLP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cbnlpstream/cbnlpwriter/config-ci.json
+# environment
+GRAB_EXPRESS_CMS_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/express/grab-express-cms-api/config-ci.json
+# environment
+CENTERSTAGE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/centerstage/config-ci.json
+# environment
+WB_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/wbstream/wbwriter/config-ci.json
+# environment
+FDMSS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmssstream/fdmsswriter/config-ci.json
+# environment
+PPI_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppistream/ppireader/config-ci.json
+# environment
+FCOMM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fcommstream/fcommwriter/config-ci.json
+# environment
+UCM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/ucm/service/ucm-ci.json
+# environment
+PRISM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pricing/prism/config-ci.json
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+FUA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fuastream/fuawriter/config-ci.json
+# environment
+ENTERPRISE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/enterprise/enterprise/config-ci.json
+# environment
+ABACUS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/abacus/config-ci.json
+# environment
+BS_HITCHSDK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/commons/public/bs/hitchsdk/config-ci.json
+# environment
+SUBSCRIPTION_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/subscription/config-ci.json
+# environment
+SDT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdtstream/sdtwriter/config-ci.json
+# environment
+PARTNER_GW_GANDALF_TEST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/partner-gw/partner-gw-tests/gandalftests/config/config_file/config.json
+# environment
+ 
+CND_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cndstream/cndwriter/config-ci.json
+# environment
+TLE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tlestream/tlereader/config-ci.json
+# environment
+FSE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fsestream/fsereader/config-ci.json
+# environment
+ATLANTIS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/atlantis/config-ci.json
+# environment
+VENOM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/venom/config-ci.json
+# environment
+GRABEXPRESSWEBBOOKING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/express/grab-express-webbooking/config-ci.json
+# environment
+TLE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tlestream/tlewriter/config-ci.json
+# environment
+ERP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/erpstream/erpreader/config-ci.json
+# environment
+DAT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/datstream/datreader/config-ci.json
+# environment
+ETCD_HOST = localhost
+# environment
+VE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/vestream/vewriter/config-ci.json
+# automatic
+%F = $(notdir $%)
+# environment
+FOODORDERBATCHING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-order-batching/config-ci.json
+# environment
+GRABSAFETY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/grab-safety/config-ci.json
+# environment
+COMMISSIONCORE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/incentives/commission-core/config-ci.json
+# environment
+OHM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/incentives/ohm/config-ci.json
+# environment
+PAYSI_MICROSITE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-microsite/config-ci.json
+# default
+MAKEFILES := 
+# environment
+ETD_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/etdstream/etdwriter/config-ci.json
+# environment
+TES_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tesstream/tesreader/config-ci.json
+# environment
+GT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gtstream/gtreader/config-ci.json
+# environment
+FCART_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fcartstream/fcartwriter/config-ci.json
+# environment
+PBO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pbostream/pbowriter/config-ci.json
+# environment
+KT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ktstream/ktreader/config-ci.json
+# environment
+TICKET_SEARCH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/saptf/ticket/ticket-search/config-ci.json
+# environment
+FWAR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fwarstream/fwarreader/config-ci.json
+# environment
+FDIMG_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdimgstream/fdimgreader/config-ci.json
+# environment
+PAYSI_DAX_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-dax/config-ci.json
+# environment
+MESH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/mesh/config-ci.json
+# environment
+ME_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mestream/mewriter/config-ci.json
+# environment
+BASEADAPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/overlay-adapters/base-adapter/config-ci.json
+# environment
+FOODWEB_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-web/config-ci.json
+# environment
+FDPT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdptstream/fdptwriter/config-ci.json
+# environment
+PPO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppostream/ppowriter/config-ci.json
+# environment
+PPE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppestream/ppereader/config-ci.json
+# environment
+GIDEXT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gidextstream/gextreader/config-ci.json
+# environment
+TCC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tccstream/tccreader/config-ci.json
+# environment
+TOLONG_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/bizapps/tolong/config-ci.json
+# environment
+ADS_REVIVE_SERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads-revive-server/config-ci.json
+# environment
+TAR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tarstream/tarwriter/config-ci.json
+# environment
+SUBSCRIPTION_GANDALF_TEST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/subscription/testing/functional/repo/stg_config.json
+# environment
+GHMATCH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/hitch/grab-hitch-match/grab-hitch-match-ci.json
+# environment
+SPRINKLER_ARCHIVE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/functions/archive/config-ci.json
+# environment
+OVERWATCH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/sre/overwatch/config-ci.json
+# environment
+MARKET_STORE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/supply-platform/market-store/config-ci.json
+# environment
+PL_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/plstream/plreader/config-ci.json
+# environment
+X_COMM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/comm/config-ci.json
+# environment
+WEBBOOKING_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/enterprise/webbooking/config-ci.json
+# environment
+SDEVH_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdevhstream/sdevhwriter/config-ci.json
+# environment
+WHEELS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/transport/grab-wheels/config/config-ci.json
+# environment
+SPOTOFFER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/demand-personalisation/spotoffer/config-ci.json
+# environment
+GF_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gfstream/gfwriter/config-ci.json
+# environment
+GRABROAD_ROUTEENGINE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/route-engine/config-ci.json
+# environment
+SDELR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdelrstream/sdelrreader/config-ci.json
+# environment
+GOTHENA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/transport/gothena/gothena-ci.json
+# environment
+CXT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cxtstream/cxtwriter/config-ci.json
+# environment
+CND_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cndstream/cndreader/config-ci.json
+# environment
+FCT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fctstream/fctreader/config-ci.json
+# environment
+DITTO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dittostream/dittowriter/config-ci.json
+# environment
+MERCURY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/cosmos/mercury/config-ci.json
+# environment
+ 
+FDA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdastream/fdareader/config-ci.json
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+JDLP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dlpstream/dlpreader/config-ci.json
+# environment
+SIGMA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/payouts/sigma/config-ci.json
+# environment
+SDEVH_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdevhstream/sdevhreader/config-ci.json
+# environment
+TAXIBOOKING_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/transport/taxibooking-api/config-ci.json
+# environment
+FPN_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fpnstream/fpnwriter/config-ci.json
+# environment
+GROWTH_EXPT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/growth/expt/config-ci.json
+# environment
+GAIA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/sre/gaia/config-ci.json
+# environment
+DELIVERY_SANDBOX_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/delivery-sandbox/config-ci.json
+# environment
+RTSNRIN_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtsnrinstream/rtsnrinreader/config-ci.json
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+END_QUOTASERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/quotas/quotasvr/config-ci.json
+# environment
+FB_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fbstream/fbreader/config-ci.json
+# environment
+SDSS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdssstream/sdssjsonwriter/config-ci.json
+# environment
+PT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ptstream/ptreader/config-ci.json
+# environment
+RRA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rrastream/rrawriter/config-ci.json
+# environment
+COLON_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/colon/config-ci.json
+# environment
+FEEDEX_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/feedex/config-ci.json
+# environment
+PPAX_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppaxstream/ppaxwriter/config-ci.json
+# environment
+FCASHIER_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fcashierstream/fcashierwriter/config-ci.json
+# environment
+GRABTRUSTAPI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/grab-fraud/grab-trust-api/config-ci.json
+# environment
+DELV_CATALOG_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/delv/delv-catalog/config-ci.json
+# environment
+HB_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hbstream/hbreader/config-ci.json
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+INSR_STATS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/gfg/insurance/insr-stats/config-ci.json
+# environment
+REAL_TIME_TRAFFIC_CLIENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/road-common/sdk-traffic/config-ci.json
+# environment
+FEAAT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/feaatstream/feaatwriter/config-ci.json
+# environment
+PGW_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pgwstream/pgwreader/config-ci.json
+# environment
+LOGNAME = manshan.chiu
+# environment
+X_STALKER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/stalker/config-ci.json
+# environment
+JAYA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/jaya/config-ci.json
+# environment
+BO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/bostream/bowriter/config-ci.json
+# environment
+HO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hostream/howriter/config-ci.json
+# environment
+X_TRACKER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/tracker/config-ci.json
+# environment
+FLAGS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/flagsview/flagsview-ci.json
+# environment
+PPEREL_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pperelstream/pperelwriter/config-ci.json
+# environment
+FC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fcstream/fcreader/config-ci.json
+# environment
+MARKETPLACE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pricing/marketplace/config-ci.json
+# environment
+MEX_ACCOUNT_MANAGEMENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/mex-account-management/config-ci.json
+# environment
+OVERLAY_MOCA_ADAPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/overlay-adapters/moca-adapter/config-ci.json
+# environment
+DAX_STATEMENTS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/dax-statements/config-ci.json
+# environment
+CBT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cbtstream/cbtreader/config-ci.json
+# environment
+FDDB_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fddbstream/fddbwriter/config-ci.json
+# environment
+SCRAT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/scrat/config-ci.json
+# environment
+GRAB_MALL_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-food/grab-mall/config-ci.json
+# environment
+LGCORE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/lgcorestream/lgcorereader/config-ci.json
+# environment
+TIMELINE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/nexus/timeline/config-ci.json
+# environment
+QU_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/qustream/quwriter/config-ci.json
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+HELLFIRE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/hellfire/config-ci.json
+# environment
+PAYSIGRABCARD_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-grabcard/config-ci.json
+# environment
+PP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppstream/ppwriter/config-ci.json
+# environment
+PAYSI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi/paysi-ci.json
+# environment
+RTCMC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtcmcstream/rtcmcwriter/config-ci.json
+# environment
+DORMAMMU_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/dormammu/config-ci.json
+# environment
+TTM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ttmstream/ttmreader/config-ci.json
+# environment
+MARIONETTE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/tools/marionette/config-ci.json
+# environment
+ZTIE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ztiestream/ztiewriter/config-ci.json
+# environment
+TRUST_VERIFIER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/trust-verifier/config-ci.json
+# environment
+PAXGROUPS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/insights/segments/grabkit_services/paxgroups/config-ci.json
+# environment
+ 
+FC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fcstream/fcwriter/config-ci.json
+# environment
+TICKET_BOOKING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/saptf/ticket/ticket-booking/config-ci.json
+# environment
+HO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hostream/horeader/config-ci.json
+# environment
+NIRVANA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/transport-vn/nirvana/config-ci.json
+# environment
+BPL_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/bplstream/bplreader/config-ci.json
+# environment
+PPT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pptstream/pptreader/config-ci.json
+# environment
+LINK_AJA_ADAPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/overlay-adapters/link-aja-adapter/config-ci.json
+# environment
+SDKMAN_VERSION = 5.12.2
+# environment
+BORDERS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/borders/server/config/config-ci.json
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+REMLL_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/remllstream/remllwriter/config-ci.json
+# environment
+GRPEARLYGRP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/grpearlygrpstream/grpearlygrpreader/config-ci.json
+# environment
+EXP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/expstream/expreader/config-ci.json
+# environment
+DEEPLINKTRACER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pe/deeplink-tracer/config-ci.json
+# environment
+FOOD_MAX_DATASERVICE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-max-dataservice/config-ci.json
+# environment
+STREAM_PROCESSING_PROCESSOR = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/sprinkler/streamsprocessing/config/config-ci.json
+# environment
+QUEUE_PROC_V2_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/tcp-gateway-reader/queue-processor/config-ci.json
+# environment
+DIC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dicstream/dicwriter/config-ci.json
+# environment
+EXO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/exostream/exowriter/config-ci.json
+# environment
+FDF_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdfstream/fdfreader/config-ci.json
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+TRAFFIC_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/traffic-api/config-ci.json
+# environment
+PPE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppestream/ppewriter/config-ci.json
+# environment
+NPF_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/npfstream/npfreader/config-ci.json
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+POI_HISTORY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/go-poi/middleware/ranking/config/poi-histories-ci.json
+# environment
+GEP_PROCESSOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/gep/processor/config-ci.json
+# environment
+PARTNERMEMBERSHIP_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/partner-membership/config-ci.json
+# environment
+EXPT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/exptstream/exptwriter/config-ci.json
+# environment
+DGD_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dgdstream/dgdwriter/config-ci.json
+# environment
+PANDORA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/enterprise/pandora/config-ci.json
+# environment
+RTP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtpstream/rtpreader/config-ci.json
+# environment
+SE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sestream/sewriter/config-ci.json
+# environment
+GOPATH = /Users/manshan.chiu/gopath
+# environment
+FOOD_SEARCH_INTENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-search-intent/config-ci.json
+# environment
+VR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/vrstream/vrreader/config-ci.json
+# environment
+FOODDAXAPI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-dax-api/config-ci.json
+# environment
+MS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/msstream/mswriter/config-ci.json
+# environment
+FCART_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fcartstream/fcartreader/config-ci.json
+# environment
+URS_TEST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/urs-test/config-ci.json
+# environment
+RR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rrstream/rrreader/config-ci.json
+# environment
+MISSANDEI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/missandei/config-ci.json
+# environment
+ORION_CORE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/cosmos/orion-core/config-ci.json
+# environment
+CHRONOS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/chronos/chronos-ci.json
+# environment
+BCE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/bcestream/bcewriter/config-ci.json
+# environment
+FCP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fcpstream/fcpwriter/config-ci.json
+# environment
+PATRONUS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/patronus/config-ci.json
+# environment
+ND_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ndstream/ndreader/config-ci.json
+# makefile
+.DEFAULT_GOAL := setup-credential
+# environment
+SPVO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/spvostream/spvoreader/config-ci.json
+# environment
+LOC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/locstream/locwriter/config-ci.json
+# environment
+ORBITAL_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/orbital/config-ci.json
+# environment
+AUTODASH_ORCHESTRATOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/spartan/services/autodash-orchestrator/internal/config-ci.json
+# environment
+JOULE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/incentives/joule/config-ci.json
+# environment
+FDMR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmrstream/fdmrreader/config-ci.json
+# environment
+SEI_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/seistream/seireader/config-ci.json
+# environment
+DCE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dcestream/dcewriter/config-ci.json
+# environment
+DAXHISTORY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/dax-history/config-ci.json
+# environment
+FOODDELIVERY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-delivery-taskpool/config-ci.json
+# environment
+CO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/costream/cowriter/config-ci.json
+# environment
+SRE_UPTIME_REPORT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/sre/uptime-reports/config-ci.json
+# environment
+ 
+X_PLANNER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/planner/config-ci.json
+# environment
+SVH_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/svhstream/svhreader/config-ci.json
+# environment
+MARIONETTE_TEST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/marionette-test/config-ci.json
+# environment
+PPEREL_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pperelstream/pperelreader/config-ci.json
+# environment
+FDO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdostream/fdowriter/config-ci.json
+# environment
+DAC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dacstream/dacwriter/config-ci.json
+# environment
+FPM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fpmstream/fpmwriter/config-ci.json
+# environment
+DAXFEEDBACK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/dax-feedback/config-ci.json
+# environment
+FAS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fasstream/faswriter/config-ci.json
+# environment
+OT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/otstream/otreader/config-ci.json
+# environment
+XENOSSERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/xenos/config-ci.json
+# environment
+DOC_UPDATER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/doc-updater/config-ci.json
+# environment
+SS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ssstream/sswriter/config-ci.json
+# environment
+CHRONOSKIT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/chronos/chronoskit/config-ci.json
+# environment
+OUTBOT_BOT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/nexus/outbot/bot/config-ci.json
+# environment
+DATADOGE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/observability/datadoge/config-ci.json
+# environment
+AUCTIONHOUSE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/auctionhouse/config-ci.json
+# environment
+SKYWALKER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/skywalker/config-ci.json
+# environment
+TC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tcstream/tcwriter/config-ci.json
+# environment
+TRUST_DELIVERY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/trust-delivery/config-ci.json
+# environment
+URS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/urs/config-ci.json
+# environment
+RTTWAY_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rttwaystream/rttwaywriter/config-ci.json
+# environment
+FOODCAMPAIGN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-campaign/config-ci.json
+# environment
+FETA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fetastream/fetareader/config-ci.json
+# environment
+CXS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cxsstream/cxsreader/config-ci.json
+# environment
+BO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/bostream/boreader/config-ci.json
+# environment
+OFFERS_TOPUP_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/marketing/offers-topup/config-ci.json
+# environment
+SUBS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/subsstream/subsreader/config-ci.json
+# environment
+TAS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tasstream/taswriter/config-ci.json
+# environment
+SPRINKLER_REDSHIFT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/functions/redshift/config-ci.json
+# environment
+BF_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/bfstream/bfreader/config-ci.json
+# environment
+DOCUMENTS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/documents/config-ci.json
+# environment
+SAARTHI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/saarthi/config-ci.json
+# environment
+MTIX_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mtixstream/mtixreader/config-ci.json
+# environment
+GF_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pricing/grab-fare/grab-fare-ci.json
+# environment
+GHA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ghastream/ghareader/config-ci.json
+# environment
+INKOMBA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/inkomba/config-ci.json
+# environment
+SVH_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/svhstream/svhwriter/config-ci.json
+# environment
+APS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/apsstream/apswriter/config-ci.json
+# environment
+DAXRATETRIP_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/dax-rate-trip/config-ci.json
+# environment
+OCR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/ocr/config-ci.json
+# environment
+FPS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fpsstream/fpswriter/config-ci.json
+# environment
+MEX_MARKETING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/mex-corex/mex-marketing/config-ci.json
+# environment
+DRMMD_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/drmmdstream/drmmdreader/config-ci.json
+# environment
+API_GATEWAY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-api/api-gateway/cmd/httpgateway/config/config-ci.json
+# environment
+OVERLAY_GRAB_LINK_ADAPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/overlay-adapters/grab-link-adapter/config-ci.json
+# environment
+SHARE_SAVINGS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-share/share-savings/config-ci.json
+# environment
+CONCEDO_LOGGER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/iam/concedo-logger/config-ci.json
+# environment
+DOC_UPDATER_GANDALF_TEST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/doc-updater/gandalftests/gandalf-config-ci.json
+# environment
+TICKET_FTI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/saptf/ticket/ticket-fti/config-ci.json
+# environment
+MVS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mvsstream/mvsreader/config-ci.json
+# environment
+WATCHFARE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/demand-personalisation/watch-fare/config-ci.json
+# environment
+RIDESAPI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/rides-api/config-ci.json
+# environment
+ADYTUM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/privacy/adytum/config-ci.json
+# environment
+FDMG_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmgstream/fdmgwriter/config-ci.json
+# environment
+MESSAGE_CENTER_POSTMAN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rtc/message-center-postman/config-ci.json
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SDSAV3_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdsav3stream/sdsav3writer/config-ci.json
+# environment
+FDCUISINE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcuisinestream/fdcuisinewriter/config-ci.json
+# environment
+ 
+PLG_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/plgstream/plgreader/config-ci.json
+ 
+# environment
+CONCEDOIDENTITY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/iam/concedo-identity/config-ci.json
+# environment
+GRAB_METADATA = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/commons/util/grabrpc/gmetadata/metadata-ci.json
+# environment
+MPPF_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mppfstream/mppfreader/config-ci.json
+# environment
+DACE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dacestream/dacewriter/config-ci.json
+# environment
+PQPE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pqpestream/pqpewriter/config-ci.json
+# environment
+LOKI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/loki/config-ci.json
+# environment
+REDSKULL_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/redskull/config-ci.json
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+RT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtstream/rtreader/config-ci.json
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+JAVA_HOME = /Users/manshan.chiu/.sdkman/candidates/java/current
+# environment
+GRAB_EXPRESS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/express/grab-express/config-ci.json
+# environment
+GFORM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gformstream/gformwriter/config-ci.json
+# environment
+ADCONVERSION_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/adconversionstream/adconversionreader/config-ci.json
+# environment
+CH_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/chstream/chwriter/config-ci.json
+# environment
+FOCA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/focastream/focawriter/config-ci.json
+# environment
+PAYSIARIES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-aries/config-ci.json
+# environment
+CARTMAN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/cartman/config-ci.json
+# environment
+PCA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pcastream/pcawriter/config-ci.json
+# environment
+VW_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/vwstream/vwwriter/config-ci.json
+# environment
+PCT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pctstream/pctreader/config-ci.json
+# environment
+CONCEDOACCESSMGMT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/iam/concedo-accessmgmt/config-ci.json
+# environment
+TAR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tarstream/tarreader/config-ci.json
+# environment
+PAYSI_DEALER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-dealer/config-ci.json
+# environment
+PO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/postream/powriter/config-ci.json
+# environment
+ZTIE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ztiestream/ztiereader/config-ci.json
+# environment
+DEV_BOOTCAMP_BOOKINGS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/bootcamp/dev-bootcamp-bookings/config-ci.json
+# environment
+WEBHOOKS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-id/webhooks/config-ci.json
+# environment
+DFL_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dflstream/dflreader/config-ci.json
+# environment
+DAP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dapstream/dapwriter/config-ci.json
+# environment
+FETATR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fetatrstream/fetatrwriter/config-ci.json
+# environment
+SDEWI_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdewistream/sdewireader/config-ci.json
+# environment
+JARVIS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/jarvis/config-ci.json
+# environment
+FORECASTING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pricing/forecasting/config-ci.json
+# environment
+XB_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/xbstream/xbreader/config-ci.json
+# environment
+CLOUD_META_PATH = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/commons/util/network/cloudinfo/config-ci.json
+# environment
+SPRINKLER_MAPPER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/functions/mapper/config-ci.json
+# environment
+GROWTH_FORTUNE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/growth/wheel/config-ci.json
+# environment
+EXOM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/exomstream/gbswriter/config-ci.json
+# environment
+RCPT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rcptstream/rcptwriter/config-ci.json
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F8:0x0:0x64
+# environment
+GBS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gbsstream/gbswriter/config-ci.json
+# environment
+MYSQL_PASSWORD = 
+# environment
+PAYOUTS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/payouts/payouts/payouts-ci.json
+# environment
+COMMAND_MODE = unix2003
+# environment
+ADE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/adestream/adereader/config-ci.json
+# environment
+GRABCHAT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-chat/grab-chat-ci.json
+# environment
+GID_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gidstream/gidwriter/config-ci.json
+# environment
+IMS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/nexus/ims/config-ci.json
+# environment
+HFN_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hfnstream/hfnreader/config-ci.json
+# environment
+DAX_FEEDEX_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/dax-feedex/config-ci.json
+# environment
+MPDF_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mpdfstream/mpdfreader/config-ci.json
+# environment
+DRIVERPROFILES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/driver-profiles/config-ci.json
+# environment
+DCD_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dcdstream/dcdreader/config-ci.json
+# environment
+ONE_DE_PASSPORT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/one-de-passport/config-ci.json
+# environment
+RTCENCRYPTEDMESSAGES_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtcencryptedmessagesstream/rtcencryptedmessagesreader/config-ci.json
+# environment
+BSDATA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/pangu/bsdata/config-ci.json
+# environment
+ALGOSERVICE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/grab-share-algo/algoservice-ci.json
+# environment
+FDMSOS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmsosstream/fdmsosreader/config-ci.json
+# environment
+FPT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fptstream/fptreader/config-ci.json
+# environment
+FDCOLLECTION_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcollectionstream/fdcollectionreader/config-ci.json
+# environment
+ 
+MESSAGING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/messaging/grab-messaging/config-ci.json
+# environment
+PA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pastream/pawriter/config-ci.json
+# environment
+DAPL_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/daplstream/daplreader/config-ci.json
+# environment
+SHP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/shpstream/shpwriter/config-ci.json
+# environment
+CERTIFICATE_MANAGER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/certificate-manager/config-ci.json
+# environment
+FDW_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdwstream/fdwreader/config-ci.json
+# environment
+PDC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pdcstream/pdcreader/config-ci.json
+# environment
+BmcAssetCoreProxyLauncher.mtxrproxy = /private/tmp/com.apple.launchd.OPrSv9Bq8w/BmcAssetCoreProxyLauncher.mtxrproxy
+# environment
+MYSQL_HOST = localhost
+# environment
+SPRINKLER_DBWRITE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/functions/dbwrite/config-ci.json
+# environment
+PGCD_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pgcdstream/pgcdreader/config-ci.json
+# environment
+GANDALF_SITEVAR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/gandalf/legacysupport/gandalfconfig/sitevar_config.json
+# environment
+RTAH_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtahstream/rtahreader/config-ci.json
+# environment
+MAP_FACTORY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/map-factory/config-ci.json
+# environment
+DGD_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dgdstream/dgdreader/config-ci.json
+# environment
+PHAROS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/pharos/config-ci.json
+# environment
+GID_OAUTH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-id/gid-oauth/config-ci.json
+# environment
+HELPCENTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/cse/helpcenter/config-ci.json
+# environment
+PA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pastream/pareader/config-ci.json
+# environment
+SPRINKLER_SCYWRITE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/scywrite/config-ci.json
+# environment
+FDMC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmcstream/fdmcwriter/config-ci.json
+# environment
+KRAKEN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/secops/kraken/config-ci.json
+# environment
+NAV_GATEWAY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/nav-gateway/config-ci.json
+# environment
+VNDAXREWARDBE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/vn-daxreward-be/config-ci.json
+# environment
+PWD = /Users/manshan.chiu/Desktop/gitlabci-fargate-runner
+# environment
+FDS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdsstream/fdsreader/config-ci.json
+# environment
+UNIVERSAL_SEARCH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/personalisation/search/config-ci.json
+# environment
+MCDGATEWAY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/mcd-gateway/config-ci.json
+# environment
+PARTNERFAREFEED_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/transport-vn/partner-farefeed/config-ci.json
+# environment
+CANDIDATES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/supply-platform/candidates/config-ci.json
+# environment
+MERCURY_BE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/mercury-be/config-ci.json
+# environment
+OETRAINING_TRANSLATION_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/oetraining-translation/config-ci.json
+# environment
+FOODDELIVERYAPI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-delivery-api/config-ci.json
+# environment
+INSR_JANUS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/gfg/insurance/insr-janus/config-ci.json
+# environment
+SPV_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/spvstream/spvreader/config-ci.json
+# environment
+RRA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rrastream/rrareader/config-ci.json
+# environment
+ADCACHE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/adcache/config-ci.json
+# environment
+PGW_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pgwstream/pgwwriter/config-ci.json
+# environment
+MAP_TILES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/map-tiles/config-ci.json
+# environment
+FOODPUXIAN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-puxian/config-ci.json
+# environment
+INSR_ORCHS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/gfg/insurance/insr-orchs/config-ci.json
+# environment
+HDS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hdsstream/hdsreader/config-ci.json
+# environment
+GRAB_BUS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bus/grab-bus/config-ci.json
+# environment
+TS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tsstream/tswriter/config-ci.json
+# environment
+FDCCS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdccsstream/fdccsreader/config-ci.json
+# environment
+HOTSPOT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/hotspot/config-ci.json
+# environment
+KEYWORDHELPER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/keywordhelper/config-ci.json
+# environment
+ROADASSISTANT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/road-assistant/config-ci.json
+# environment
+AL_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/alstream/alwriter/config-ci.json
+# makefile
+CURDIR := /Users/manshan.chiu/Desktop/gitlabci-fargate-runner
+# environment
+LSPE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/lspestream/lspereader/config-ci.json
+# environment
+GRAB_DATA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-data/grab-data/config-ci.json
+# environment
+PANGU_MIGRATOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/pangu-migrator/config-ci.json
+# environment
+GO_HERMES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-api/go-hermes/config-ci.json
+# default
+SUFFIXES := 
+# environment
+COMMISSION_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/commission/config-ci.json
+# environment
+VNPAY_ADAPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/vnpay-adapter/config-ci.json
+# environment
+SHARP_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/sharp/config-ci.json
+# environment
+XEXPLORER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/explorer/config-ci.json
+# environment
+SAYONARA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/cse/sayonara/config-ci.json
+# environment
+CLDG_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cldgstream/cldgreader/config-ci.json
+# environment
+TCR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tcrstream/tcrwriter/config-ci.json
+# environment
+ 
+PARTNER_TRACER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pe/partner-engineering-tracer/config-ci.json
+# environment
+ 
+GRABEVA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-evaluator/config.json
+# environment
+DVS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dvsstream/dvswriter/config-ci.json
+# environment
+UNIT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/unitstream/unitreader/config-ci.json
+# environment
+FDMMS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmmsstream/fdmmsreader/config-ci.json
+# environment
+LGCORE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/lgcorestream/lgcorewriter/config-ci.json
+# environment
+SDEEEM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdeeemstream/sdeeemreader/config-ci.json
+# environment
+SEXTANTKIT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/sextant/kit/config-ci.json
+# environment
+TRAINING_PORTAL_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/training-portal-api/config-ci.json
+# environment
+EXP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/expstream/expwriter/config-ci.json
+# environment
+ADREPORTING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/adreporting/config-ci.json
+# environment
+LSE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/lsestream/lsereader/config-ci.json
+# environment
+MESSAGECENTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rtc/message-center/config-ci.json
+# environment
+FOOD_MAX_EMAIL_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-max-email/config-ci.json
+# environment
+FEATUREBANK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/featurebank/config-ci.json
+# environment
+DL_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dlstream/dlwriter/config-ci.json
+# environment
+PAYSIME_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysime/config-ci.json
+# environment
+SEXTANTFEEDER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/sextantfeeder/sextantfeeder-ci.json
+# environment
+ROAD_ASSISTANT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/road-assistant/config-ci.json
+# environment
+FDDT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fddtstream/fddtreader/config-ci.json
+# environment
+GRABROAD_SNAPENGINE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/snap-engine/config-ci.json
+# environment
+FTRE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ftrestream/ftrewriter/config-ci.json
+# environment
+GRABDEVICES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-api/grabdevices/server/config/config-ci.json
+# environment
+GP_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/grab-pay-ci.json
+# environment
+TRUST_DATASTORE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/trust-datastore/config-ci.json
+# environment
+GRABID_OAUTH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-id/grab-id-oauth/config-ci.json
+# environment
+POI_WAYPOINTLOOKUP_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/poi-waypointlookup/config-ci.json
+# environment
+PVH_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pvhstream/pvhwriter/config-ci.json
+# environment
+CAPACITYSERVICE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/supply-platform/capacity-service/config-ci.json
+# environment
+OVERLAY_INSTALMENT_ADAPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/overlay-instalment-adapter/config-ci.json
+# environment
+POI_RANKING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/go-poi/middleware/ranking/config/poi-ranking-ci.json
+# environment
+ROUTINGMETRICS_JOBS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/routing-metrics/jobs.json
+# environment
+ADS_FOOD_MEX_STORE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/ads-food-mex-store/config-ci.json
+# environment
+SEGP_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/insights/segments/segp/config-ci.json
+# environment
+RISK_PROXY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-id/risk-proxy/config-ci.json
+# environment
+REVAL_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/revalstream/revalwriter/config-ci.json
+# environment
+VALKYRIE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/vietnam-rnd/valkyrie/config-ci.json
+# environment
+MWT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mwtstream/mwtwriter/config-ci.json
+ 
+# environment
+EZA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/vietnam-rnd/eza/config-ci.json
+# environment
+QUOTE_STORE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pricing/quote-store/config-ci.json
+# environment
+WEBBOOKINGWORKER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/enterprise/webbooking-worker/config-ci.json
+# environment
+WEB_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/webstream/webwriter/config-ci.json
+# environment
+KARTA_CROWDSOURCING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/karta-crowdsourcing/config-ci.json
+# environment
+GANDALF_FIXTUREUTILS_GRABID_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/lib/fixtureutils/shared/gid/config-@@@.json
+# environment
+SDS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdsstream/sdswriter/config-ci.json
+# environment
+KINGPIN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/kingpin/config-ci.json
+# environment
+CATAN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/catan/config-ci.json
+# environment
+POI_GEOFENCES_WAYPOINT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/poi-geofences-waypoint/config-ci.json
+# environment
+DATA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/commons/data/config-ci.json
+# environment
+PF_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pfstream/pfwriter/config-ci.json
+# environment
+SPOTLIGHT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/sre/spotlight/config-ci.json
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+FO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fostream/fowriter/config-ci.json
+# environment
+REDIS_CLUSTER_HOST = localhost
+# environment
+PM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pmstream/pmwriter/config-ci.json
+# environment
+FDDB_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fddbstream/fddbreader/config-ci.json
+# environment
+WORKFORCE_WORKER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ce/workforce-worker/config-ci.json
+# environment
+FDMSOS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmsosstream/fdmsoswriter/config-ci.json
+# environment
+EXECUTRON_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/executron/config-ci.json
+# environment
+XEB_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/xebstream/xebwriter/config-ci.json
+# environment
+GRAB_EXPRESS_PROOF_INTERPRETER = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/express/grab-express/commons/geproof/config-ci.json
+# environment
+DAA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/daastream/daawriter/config-ci.json
+# environment
+END_QUOTACLIENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/quotas/quotasapi/config-ci.json
+# environment
+INSR_LDGR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/gfg/insurance/insr-ldgr/config-ci.json
+# environment
+FOOD_SRE_REPORTS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/sre/food-sre-reports/config-ci.json
+# environment
+CHRO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/chrostream/chrowriter/config-ci.json
+# environment
+END_GRAB_STATS_SERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/grab-stats/config-ci.json
+# environment
+ENTERPRISE_GFB_PORTAL_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/enterprise/gfb/portal/config-ci.json
+# environment
+ASTRAEA_BLACKLIST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/astraea-blacklist/config-ci.json
+# environment
+FRR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/frrstream/frrwriter/config-ci.json
+# environment
+PRICE_CALCULATION_ENGINE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pricing/price-calculation-engine/config-ci.json
+# environment
+OUTBOT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/nexus/outbot/config-ci.json
+# environment
+POICHG_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/poichgstream/poichgreader/config-ci.json
+# environment
+OETRAINING_LOADGENERATOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/oetraining-loadgenerator/config-ci.json
+# environment
+GRABROAD_ROUTEWAYPOINT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/route-waypoint/config-ci.json
+# environment
+ 
+GM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/grab-money/grab-money-ci.json
+# environment
+MESSAGING_CLIENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/messaging/grab-messaging/sdk/config-ci.json
+# environment
+FDCAMP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcampstream/fdcampreader/config-ci.json
+# environment
+MAP_TILES_MAKER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/map-tiles-maker/config-ci.json
+# environment
+ESD_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/esdstream/esdreader/config-ci.json
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+AE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/aestream/aewriter/config-ci.json
+# environment
+X_METRIC_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/x-metric/config-ci.json
+# environment
+FSD_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fsdstream/fsdreader/config-ci.json
+# environment
+LTC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ltcstream/ltcreader/config-ci.json
+# makefile
+SHELL = /bin/sh
+# environment
+HERMES2_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-gateway/hermes/v2/config-ci.json
+# environment
+NPF_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/npfstream/npfwriter/config-ci.json
+# environment
+FPDS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fpdsstream/fpdsreader/config-ci.json
+# environment
+ERP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/erpstream/erpwriter/config-ci.json
+# environment
+BCPE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/bcpestream/bcpewriter/config-ci.json
+# environment
+SANDBOX_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/growth/sandbox/config-ci.json
+# environment
+TETHYS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/tethys/config-ci.json
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ROUTE_ENGINE_ADVANCE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/route-engine-advance/config-ci.json
+# environment
+DSL_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dslstream/dslreader/config-ci.json
+# environment
+DSA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dsastream/dsawriter/config-ci.json
+# environment
+FOODCONTENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-content/config-ci.json
+# environment
+HOUSEOFCARDS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/personalisation/houseofcards/config-ci.json
+# environment
+PC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pcstream/pcreader/config-ci.json
+# environment
+FPPSR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fppsrstream/fppsrwriter/config-ci.json
+# environment
+PPERGN_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppergnstream/ppergnwriter/config-ci.json
+# environment
+GT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gtstream/gtwriter/config-ci.json
+# environment
+SPRINKLER_KAWRITE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/kawrite/config-ci.json
+# environment
+SDEHI_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdehistream/sdehireader/config-ci.json
+# environment
+TEH_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tehstream/tehreader/config-ci.json
+# environment
+LOOKING_GLASS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/looking-glass/config-ci.json
+# environment
+FEAAT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/feaatstream/feaatreader/config-ci.json
+# environment
+GRAB_PLACES_WAYPOINT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/grab-places-waypoint/config-ci.json
+# environment
+DRIVERS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/drivers/drivers-ci.json
+# environment
+ME_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mestream/mereader/config-ci.json
+# environment
+GFARE_SDK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/commons/public/grab-fare/sdk-grab-fare/config/gfaresdk-ci.json
+# environment
+ 
+RIEMANN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/riemann/config-ci.json
+# environment
+EXE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/exestream/exereader/config-ci.json
+# environment
+PORTENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/spartan/services/portent/config-ci.json
+# environment
+FDIG_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdigstream/fdigreader/config-ci.json
+# environment
+DOHE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dohestream/dohereader/config-ci.json
+# environment
+PL_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/plstream/plwriter/config-ci.json
+# environment
+POI_DETAILS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/poi-details/config-ci.json
+# environment
+RUBICK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/rubick/config-ci.json
+# environment
+THUMP_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/tools/thump/config-ci.json
+# environment
+PTS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ptsstream/ptsreader/config-ci.json
+# environment
+SPRINKLER_MIRROR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/functions/mirror/config-ci.json
+# environment
+ROUTINGMETRICS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/routing-metrics/config-ci.json
+# environment
+FSE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fsestream/fsewriter/config-ci.json
+# environment
+FOST_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/foststream/fostreader/config-ci.json
+# environment
+SPRINKLER_AGGREGATOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/functions/aggregator/config-ci.json
+# environment
+MORPHEUS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/incentives/morpheus/config-ci.json
+# environment
+SDELR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdelrstream/sdelrwriter/config-ci.json
+# environment
+REWARDS_SDK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/public/rewardssdk/sdk-rewards/config/rewards-sdk-ci.json
+# environment
+PQE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pqestream/pqewriter/config-ci.json
+# environment
+MPPF_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mppfstream/mppfwriter/config-ci.json
+# environment
+CHATBOT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ce/chatbot/config-ci.json
+# environment
+CATEGORYTILE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/saptf/category-tile/config-ci.json
+# environment
+ADMANAGER_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/admanagerstream/admanagerreader/config-ci.json
+# environment
+DELTA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/incentives/delta/config-ci.json
+# environment
+TES_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tesstream/teswriter/config-ci.json
+# environment
+ELASTICSEARCH_HOST = localhost
+# environment
+FOOD_MAX_PORTAL_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-max-portal/config-ci.json
+# environment
+HM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hmstream/hmreader/config-ci.json
+# environment
+PHI_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/phistream/phiwriter/config-ci.json
+# environment
+KT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ktstream/ktwriter/config-ci.json
+# environment
+FWAR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fwarstream/fwarwriter/config-ci.json
+# environment
+LSPE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/lspestream/lspewriter/config-ci.json
+# environment
+DAT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/datstream/datwriter/config-ci.json
+# environment
+TCC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tccstream/tccwriter/config-ci.json
+# environment
+SEH_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sehstream/sehreader/config-ci.json
+# environment
+TIE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tiestream/tiewriter/config-ci.json
+# environment
+RCPT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rcptstream/rcptreader/config-ci.json
+# environment
+POI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/go-poi/config/poi-ci.json
+# environment
+GRABDDB_HOST = http://localhost:8000
+# environment
+LSE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/lsestream/lsewriter/config-ci.json
+# environment
+HCA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hcastream/hcareader/config-ci.json
+# environment
+ENTERPRISE_GFB_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/enterprise/gfb/api/config-ci.json
+# environment
+HB_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hbstream/hbwriter/config-ci.json
+# environment
+FRODO_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/frodo/config-ci.json
+# environment
+REMLL_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/remllstream/remllreader/config-ci.json
+# environment
+ 
+TTM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ttmstream/ttmwriter/config-ci.json
+# environment
+ELROND_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/elrond/server/config/config-ci.json
+# environment
+BCE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/bcestream/bcereader/config-ci.json
+# environment
+DATAXFER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/dataxfer/config-ci.json
+# environment
+FTRE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ftrestream/ftrereader/config-ci.json
+# environment
+SAVINGS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-share/savings/config-ci.json
+# environment
+PBEB_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pbebstream/pbebreader/config-ci.json
+# environment
+PARTNERGWECHO_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/partner-gw/partner-gw-echo/config-ci.json
+# environment
+FDDT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fddtstream/fddtwriter/config-ci.json
+# environment
+GRPM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/grpmstream/grpmwriter/config-ci.json
+# environment
+FDIV2_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdiv2stream/fdiv2reader/config-ci.json
+# environment
+FOODORDERMANAGER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-order-manager/config-ci.json
+# environment
+VSCODE_CWD = /
+# environment
+XEBMSG_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/xebmsgstream/xebmsgreader/config-ci.json
+# environment
+FDA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdastream/fdawriter/config-ci.json
+# environment
+PHI_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/phistream/phireader/config-ci.json
+# environment
+JDLP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dlpstream/dlpwriter/config-ci.json
+# environment
+QUEST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/quest/config-ci.json
+# environment
+FOOD_TRX_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-trx/config-ci.json
+# environment
+OT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/otstream/otwriter/config-ci.json
+# environment
+BRUCEBANNER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/discovery/brucebanner/config-ci.json
+# environment
+KAFKA_MONITORING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/kafka-monitoring/config-ci.json
+# environment
+TRUST_WATCHTOWER_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/trust-watchtower/config-ci.json
+# environment
+FOGA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fogastream/fogareader/config-ci.json
+# environment
+GIDLOGIN_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gidloginstream/gidloginreader/config-ci.json
+# environment
+PANGU_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/pangu/pangu/config-ci.json
+# environment
+PT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ptstream/ptwriter/config-ci.json
+# environment
+VEHICLEENTITY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/vehicle-entity/config-ci.json
+# environment
+PAXPOI_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/paxpoistream/paxpoireader/config-ci.json
+# environment
+FOOD_UCMOPS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-ucmops/config-ci.json
+# environment
+GUNDAM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/gundam/config-ci.json
+# environment
+PARTNERGWAGENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/partner-gw/partner-gw-agent/config-ci.json
+# environment
+AE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/aestream/aereader/config-ci.json
+# environment
+GOPOI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/go-poi/go-poi/config-ci.json
+# environment
+OETRAINING_FORTUNE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/oetraining-fortune/config-ci.json
+# environment
+PAYSI_CAMPAIGN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-campaign/config-ci.json
+# environment
+RTSNROUT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtsnroutstream/rtsnroutreader/config-ci.json
+# environment
+API_GANDALF_TEST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-api/api-gateway/gandalf/gandalftests/config/config.json
+# environment
+MONOREPO_PATH = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go
+# environment
+HM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hmstream/hmwriter/config-ci.json
+# environment
+SPRINKLER_PROCESSING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sk2/processing/config/config-ci.json
+# environment
+SURGEAPI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pricing/surge-api/config-ci.json
+ 
+# environment
+PARTNER_RIDEBOOKING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pe/partner-ridebooking/config-ci.json
+# environment
+PAYSI_MATRIX_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-matrix/config-ci.json
+# environment
+BDATA_STREAM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/bdata/config_stream-ci.json
+# environment
+VENTURE_WHEELS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/venture-wheels/config-ci.json
+# environment
+ADE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/adestream/adewriter/config-ci.json
+# environment
+EXPM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/expmstream/expmreader/config-ci.json
+# environment
+BE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/bestream/bereader/config-ci.json
+# environment
+AP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/apstream/apreader/config-ci.json
+# environment
+CBT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cbtstream/cbtwriter/config-ci.json
+# environment
+VSCODE_IPC_HOOK = /Users/manshan.chiu/Library/Application Support/Code/1.69.1-main.sock
+# environment
+DP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dpstream/dpreader/config-ci.json
+# environment
+SEGMENTS_MEXGROUPS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/insights/segments/services/segments-mexgroups/config-ci.json
+# environment
+FPN_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fpnstream/fpnreader/config-ci.json
+# environment
+PGP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pgpstream/pgpreader/config-ci.json
+# environment
+X_INGESTOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/ingestor/config-ci.json
+# environment
+SPIDER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/sre/spider/config-ci.json
+# environment
+LP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/lpstream/lpreader/config-ci.json
+# environment
+FMP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fmpstream/fmpreader/config-ci.json
+# environment
+POP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/popstream/popreader/config-ci.json
+# environment
+PP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppstream/ppreader/config-ci.json
+# environment
+GRABX_SIDECAR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/sidecar/config-ci.json
+# environment
+SPO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/spostream/sporeader/config-ci.json
+# environment
+BOLEH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/web/boleh/config-ci.json
+# environment
+SDKMAN_CANDIDATES_API = https://api.sdkman.io/2
+# environment
+KRATOS_ADAPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/marketing/kratos-adapter/config-ci.json
+# environment
+MEMBERSHIP_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/membership/config-ci.json
+# environment
+CSEAP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cseapstream/cseapwriter/config-ci.json
+# environment
+ND_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ndstream/ndwriter/config-ci.json
+# environment
+FPT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fptstream/fptwriter/config-ci.json
+# environment
+STREAM_PROCESSING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/processing/config-ci.json
+# environment
+CE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cestream/cereader/config-ci.json
+# environment
+SEI_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/seistream/seiwriter/config-ci.json
+# environment
+PPT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pptstream/pptwriter/config-ci.json
+# environment
+DAC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dacstream/dacreader/config-ci.json
+# environment
+TRUST_DATA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/trust-data/config-ci.json
+# environment
+SPVO_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/spvostream/spvowriter/config-ci.json
+# environment
+EDITH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/marketing/edith/config-ci.json
+# environment
+NTRE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ntrestream/ntrereader/config-ci.json
+ 
+# environment
+FOODETA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-eta/config-ci.json
+# environment
+PIKACHU_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/pikachu/config-ci.json
+# environment
+PALAPA_SHOPIFY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-palapa/palapa-shopify/config-ci.json
+# environment
+POI_QUERY_PARSER_WAYPOINT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/poi-query-parser-waypoint/config-ci.json
+# environment
+OWL_BOT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/owl-bot/config-ci.json
+# environment
+DATAMULTIVERSE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/datamultiverse/config-ci.json
+# environment
+HYPERLOOP_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/hyperloop/config-ci.json
+# environment
+GO_BEKORA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/tools/go-bekora/config-ci.json
+# environment
+CXT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cxtstream/cxtreader/config-ci.json
+# environment
+ARGUS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/argus/config-ci.json
+# environment
+MARKET_VIEW_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/supply-platform/market-view/config-ci.json
+# environment
+POI_HEURISTIC_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/poi-heuristic/config-ci.json
+# environment
+FRS_GANDALF_IMAGE_PATH = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/face-recognition/gandalftests/functional/images
+# environment
+CA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/castream/careader/config-ci.json
+# environment
+DA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dastream/dareader/config-ci.json
+# environment
+FOOD_CASHIER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-cashier/config-ci.json
+# environment
+RTP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtpstream/rtpwriter/config-ci.json
+# environment
+TC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tcstream/tcreader/config-ci.json
+# environment
+FA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fastream/fareader/config-ci.json
+# environment
+CONTROL_PLANE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-gateway/go-control-plane/server/config-ci.json
+# environment
+ROUTE_IMAGERY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/route-imagery/config-ci.json
+# environment
+PAX_PREF_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/transport/pax-pref/config-ci.json
+# environment
+EXPRESSKIT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/express/grab-express/kit-config-ci.json
+# environment
+FO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fostream/foreader/config-ci.json
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.RUNxYv1T3J/Listeners
+# environment
+GAMMAECONSAPI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/econs-web/gamma-econs-api/config-ci.json
+# environment
+ADS_ENTITIES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/ads-entities/config-ci.json
+# environment
+FDT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdtstream/fdtreader/config-ci.json
+# environment
+RPP_ADAPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/rpp-adapter/config-ci.json
+# environment
+PQPE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pqpestream/pqpereader/config-ci.json
+# automatic
+*F = $(notdir $*)
+# environment
+BAE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/baestream/baereader/config-ci.json
+# environment
+SPRINKLER_STREAMS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/sprinkler/streams/config-ci.json
+# environment
+GIDEXT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gidextstream/gextwriter/config-ci.json
+# environment
+RISKPROXY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-id/riskproxy/config-ci.json
+# environment
+DAE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/daestream/daereader/config-ci.json
+# environment
+GEO_DASHBOARD_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/geo-dashboard/config-ci.json
+ 
+# environment
+FDMR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmrstream/fdmrwriter/config-ci.json
+# environment
+CM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cmstream/cmreader/config-ci.json
+# environment
+INCENTIVES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/incentives/incentives/config-ci.json
+# environment
+WA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/wastream/wareader/config-ci.json
+# environment
+COLORBLINDLIST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-api/colorblindlist/server/config/config-ci.json
+# environment
+SLACK_ROUTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pricing/slack-router/config-ci.json
+# environment
+FARE_LIFECYCLE_STORE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pricing/fare-lifecycle-store/config-ci.json
+# environment
+RETAIL_CMS_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/retail-cms-api/config-ci.json
+# environment
+INSIGHTS_SEGMENTSRPC_SERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/insights/segments/segp/config-ci.json
+# environment
+FAR_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/farstream/farwriter/config-ci.json
+# environment
+SDKMAN_DIR = /Users/manshan.chiu/.sdkman
+# environment
+ADCAPPING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/adcapping/config-ci.json
+# environment
+PHOTON_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/transport/photon/config-ci.json
+# environment
+GRAB_WHISPER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/whisper/grab-whisper/config-ci.json
+# environment
+DAP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dapstream/dapreader/config-ci.json
+# environment
+AUTHN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/iam/authn/config-ci.json
+# environment
+CSEREFUNDS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cserefundsstream/cserefundsreader/config-ci.json
+# environment
+FETA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fetastream/fetawriter/config-ci.json
+# environment
+CRUDDS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/crudds/config-ci.json
+# environment
+FOOD_NOTIFICATION_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-notification/config-ci.json
+# environment
+GH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/hitch/grab-hitch/grab-hitch-ci.json
+# environment
+CXS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cxsstream/cxswriter/config-ci.json
+# environment
+FPS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fpsstream/fpsreader/config-ci.json
+# environment
+GRPCLUSTER_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/grpclusterstream/grpclusterreader/config-ci.json
+# environment
+RUDRA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/rudra/config-ci.json
+# environment
+THANOS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/thanos/config-ci.json
+# environment
+WARLOCK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/warlock/config-ci.json
+# environment
+CARTMAN_TEST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/cartman-test/config-ci.json
+# environment
+XE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/xestream/xereader/config-ci.json
+# environment
+CPA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cpastream/cpareader/config-ci.json
+# environment
+MTIX_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mtixstream/mtixwriter/config-ci.json
+# environment
+API_WARDEN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ssdlc/api-warden/config-ci.json
+# environment
+FOODDATASERVICE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-dataservice/config-ci.json
+# environment
+INCENTIVES_GANDALF_TEST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/incentives/incentives/test/db/stg_config.json
+# environment
+FOST_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/foststream/fostwriter/config-ci.json
+# environment
+ 
+END_CDATASERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/cdata/cdatasvr/config-ci.json
+# environment
+PAYSI_HISTORY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-history/config-ci.json
+# environment
+POI_ADDRESS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/go-poi/providers/config/poi-address-ci.json
+# environment
+STOCKLIST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/gandalf/experimental/stocklist/config-ci.json
+# environment
+CENTRAL_SERVICE_DASHBOARD_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/nexus/central-service-dashboard/config-ci.json
+# environment
+DRMMD_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/drmmdstream/drmmdwriter/config-ci.json
+# environment
+RTAH_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtahstream/rtahwriter/config-ci.json
+# environment
+GRAB_EXPRESS_PRICE_TABLE = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/express/grab-express/internal/geprice/config-ci.json
+# environment
+GMUEC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gmuecstream/gmuecreader/config-ci.json
+# environment
+PAYSI_FUNDSFLOW_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-fundsflow/config-ci.json
+# environment
+CLAIR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-gateway/clair/config-ci.json
+# environment
+MAGNETO_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/magneto/config-ci.json
+# environment
+FRAUD_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/grab-fraud/config-ci.json
+# environment
+REWARDSEARCH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/search/config-ci.json
+# environment
+AUTODASH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/spartan/services/autodash/config-ci.json
+# environment
+MVS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mvsstream/mvswriter/config-ci.json
+# environment
+AUTH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/authobots/authobots-ci.json
+# environment
+DAA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/daastream/daareader/config-ci.json
+# environment
+SE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sestream/sereader/config-ci.json
+# environment
+DRIVERTRAINING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/driver-training/config-ci.json
+# environment
+CH_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/chstream/chreader/config-ci.json
+# environment
+DR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/drstream/drreader/config-ci.json
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/manshan.chiu/Library/Application Support/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+INCENTIVEKIT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/incentives/incentivekit/config-ci.json
+# environment
+PLG_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/plgstream/plgwriter/config-ci.json
+# environment
+SPV_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/spvstream/spvwriter/config-ci.json
+# environment
+FRODO2_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/frodo2/config-ci.json
+# environment
+GRABROAD_ROUTEENGINE_MAPPER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/route-engine-mapper/config-ci.json
+# environment
+SV_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/svstream/svwriter/config-ci.json
+# environment
+TIE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tiestream/tiereader/config-ci.json
+# environment
+PAYSI_HERMES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-hermes/config-ci.json
+# automatic
++F = $(notdir $+)
+# environment
+HFN_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hfnstream/hfnwriter/config-ci.json
+# environment
+SDKMAN_PLATFORM = darwinx64
+# environment
+UCMW_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ucmwstream/ucmwreader/config-ci.json
+# environment
+ADCONVERSION_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/adconversionstream/adconversionwriter/config-ci.json
+# environment
+MONIMONI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/cosmos/monimoni/config-ci.json
+# environment
+PM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pmstream/pmreader/config-ci.json
+ 
+# environment
+RTSNRIN_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtsnrinstream/rtsnrinwriter/config-ci.json
+# environment
+FDCCS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdccsstream/fdccswriter/config-ci.json
+# environment
+VIPER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/abuse/viper/config-ci.json
+# environment
+RLS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-api/rate-limiter/export/grpc-service/cluster/node-server/config-ci.json
+# environment
+FMR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fmrstream/fmrreader/config-ci.json
+# environment
+GRAB_LOG_SDK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/public/sdk/grablogsdk/config/grab-log-sdk-ci.json
+# environment
+GID_DEPENDENCY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-id/gid-dependency/config-ci.json
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+GROCERY_CMS_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grocery/grocery-cms-api/config-ci.json
+# environment
+POSTGRES_HOST = localhost
+# environment
+IRIS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/iris/config-ci.json
+# environment
+SDKMAN_CANDIDATES_DIR = /Users/manshan.chiu/.sdkman/candidates
+# environment
+EAGLEVIEW_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/nexus/eagleview/config-ci.json
+# environment
+SOTU_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/tools/sotu/config-ci.json
+# environment
+GROCERYORDERMANAGER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grocery/grocery-order-manager/config-ci.json
+# environment
+SDEWI_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdewistream/sdewiwriter/config-ci.json
+# environment
+POI_COLLECTOR_WAYPOINT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/poi-collector-waypoint/config-ci.json
+# environment
+GRAB_FOOD_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-food/grab-food/config-ci.json
+# environment
+FILTER_SERVICE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/filterservice/filterservice-ci.json
+# environment
+DG_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dgstream/dgreader/config-ci.json
+# environment
+SR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/srstream/srreader/config-ci.json
+# environment
+XPC_FLAGS = 0x0
+# environment
+FDCAMPU_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcampustream/fdcampureader/config-ci.json
+# environment
+MOG_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/mog/config-ci.json
+# environment
+CONCEDO_IAM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/iam/concedo-iam/config-ci.json
+# environment
+AKTIVITI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/aktiviti/config-ci.json
+# environment
+CBNLP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cbnlpstream/cbnlpreader/config-ci.json
+# default
+MAKECMDGOALS := all
+# environment
+FDMC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmcstream/fdmcreader/config-ci.json
+# environment
+WB_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/wbstream/wbreader/config-ci.json
+# environment
+FOOD_MAX_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-max-api/config-ci.json
+# environment
+FDMSS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmssstream/fdmssreader/config-ci.json
+# environment
+SV_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/svstream/svreader/config-ci.json
+# environment
+SHLVL = 1
+# environment
+MPDF_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mpdfstream/mpdfwriter/config-ci.json
+# environment
+SESSIONS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/sessions/config-ci.json
+ 
+# environment
+DCD_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dcdstream/dcdwriter/config-ci.json
+# environment
+SBT_HOME = /Users/manshan.chiu/.sdkman/candidates/sbt/current
+# environment
+SHARING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-share/sharing/config-ci.json
+# environment
+RTCENCRYPTEDMESSAGES_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtcencryptedmessagesstream/rtcencryptedmessageswriter/config-ci.json
+# environment
+FUA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fuastream/fuareader/config-ci.json
+# environment
+RECEIPTS_QUEUE_SDK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/public/receipt-sdk/receipts-queue/config-ci.json
+# environment
+ETA_ENGINE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/eta-engine/config-ci.json
+# environment
+GRPM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/grpmstream/grpmreader/config-ci.json
+# environment
+END_GRAB_STATS_CLIENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/grab-stats/grabstatsclient/config-ci.json
+# environment
+END_AI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/ai/predict/config-ci.json
+# environment
+DLP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dlpstream/dlpwriter/config-ci.json
+# environment
+FDW_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdwstream/fdwwriter/config-ci.json
+# environment
+MVI_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mvistream/mvireader/config-ci.json
+# environment
+END_CDS_RESTSERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/common/restserver/config-ci.json
+# environment
+SITEVAR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/commons/util/config/sitevar/config-ci.json
+# environment
+GROCERYCASHIER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grocery/grocery-cashier/config-ci.json
+# environment
+LOCATION_VENDOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/location-vendor/config-ci.json
+# environment
+FDCUE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcuestream/fdcuereader/config-ci.json
+# environment
+ULWAZI_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/ulwazi-api/config-ci.json
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = manshan.chiu
+# environment
+FOODPARTNERAPI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-partner-api/config-ci.json
+# environment
+YANG_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/spartan/services/yang/config-ci.json
+# environment
+KBANKADAPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/kbank-adapter/config-ci.json
+# environment
+FOODPROFILE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-profile/config-ci.json
+# environment
+YIN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/spartan/services/yin/config-ci.json
+# environment
+FDM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmstream/fdmreader/config-ci.json
+# environment
+SDS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdsstream/sdsreader/config-ci.json
+# environment
+ADMANAGER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/admanager/config-ci.json
+# environment
+FOOD_ENGAGE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-engage/config-ci.json
+# environment
+ETD_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/etdstream/etdreader/config-ci.json
+# environment
+UNO_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/uno/config-ci.json
+# environment
+FOOD_SUPPORT_DA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-support-da/config-ci.json
+# environment
+FDC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcstream/fdcwriter/config-ci.json
+# environment
+GRABBENEFITS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/grab-benefits/config-ci.json
+# environment
+FOODPAXAPI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-pax-api/config-ci.json
+# environment
+FOOD_MEX_INDEX_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-mex-index/config-ci.json
+# environment
+DISCOVERER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/personalisation/discoverer/config-ci.json
+# environment
+INSR_EATER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/gfg/insurance/insr-eater/config-ci.json
+# environment
+GME_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gmestream/gmereader/config-ci.json
+# environment
+ 
+SECRETMANAGER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-id/secretmanager/config-ci.json
+# environment
+GBS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gbsstream/gbsreader/config-ci.json
+# environment
+FDPT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdptstream/fdptreader/config-ci.json
+# environment
+LTC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ltcstream/ltcwriter/config-ci.json
+# environment
+TRAFFIC_TILES_MAKER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/traffic-tiles-maker/config-ci.json
+# environment
+FCOMM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fcommstream/fcommreader/config-ci.json
+# environment
+GCCD_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gccdstream/gccdreader/config-ci.json
+# environment
+GRAB_EXPRESS_TOKO_INTEGRATION_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/express/grab-express-toko/config-ci.json
+# environment
+TRACER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/commons/util/tracer/config-ci.json
+# environment
+ADCONSENT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/adconsent/config-ci.json
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+HDS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hdsstream/hdswriter/config-ci.json
+# environment
+MEXSPOT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mexspotstream/mexspotwriter/config-ci.json
+# environment
+ADSERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/adserver/config-ci.json
+# environment
+CANCELLAH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/transport-vn/cancellah/config-ci.json
+# environment
+FOODMATRIX_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-matrix/config-ci.json
+# environment
+SDEHE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdehestream/sdehewriter/config-ci.json
+# environment
+GF_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gfstream/gfreader/config-ci.json
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+GRAB_PAY_OVERLAY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/overlay/config-ci.json
+# environment
+FOOD_GINKGO_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-ginkgo/config-ci.json
+# environment
+SPRINKLER_AUWRITE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/functions/auwrite/config-ci.json
+# environment
+PCT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pctstream/pctwriter/config-ci.json
+# environment
+GRPC_GATEWAY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-api/grpc-gateway/config-ci.json
+# environment
+PQE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pqestream/pqereader/config-ci.json
+# environment
+DITTO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dittostream/dittoreader/config-ci.json
+# environment
+XEB_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/xebstream/xebreader/config-ci.json
+# environment
+PM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/transport/grab-api/config/config-ci.json
+# environment
+CLDG_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/cldgstream/cldgwriter/config-ci.json
+# default
+.VARIABLES := 
+# environment
+FOODANALYTICS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-analytics/config-ci.json
+# environment
+TMPDIR = /var/folders/9c/7k5gmn4x4c517sk34wh77mww0000gr/T/
+ 
+# environment
+GRAB_EXPRESS_PLANNER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/express/grab-express-planner/config-ci.json
+# environment
+OFFERS_DISCOVERY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/marketing/offers-discovery/config-ci.json
+# environment
+FDMMS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmmsstream/fdmmswriter/config-ci.json
+# environment
+NAMTSO_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/deliveries/namtso/config-ci.json
+# environment
+POI_GEOFENCES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/poi-geofences/config-ci.json
+# environment
+END_RATINGSERVER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/vietnam-rnd/grab-feedback/ratingsvr/config-ci.json
+# environment
+GE_TRIPMANAGER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/express/grab-express-trip-manager/config-ci.json
+# environment
+MallocNanoZone = 0
+# environment
+PPO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppostream/pporeader/config-ci.json
+# environment
+STINGRAY_SDK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/public/stingraysdk/basicconfig/stingray-sdk-ci.json
+# environment
+DEMANDCOMM_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/demand-personalisation/demand-comm/config-ci.json
+# environment
+PPAX_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppaxstream/ppaxreader/config-ci.json
+# environment
+FCASHIER_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fcashierstream/fcashierreader/config-ci.json
+# environment
+BOOKINGSAPI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/bookings-api/config-ci.json
+# environment
+ADBILLING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ads/adbilling/config-ci.json
+# environment
+FTE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ftestream/ftewriter/config-ci.json
+# environment
+MFLAGS = -Rrqp
+# environment
+SPRINKLER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/sprinkler/config-ci.json
+# environment
+ALERT_AGGREGATOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/sre/swarm/alert-aggregator/config-ci.json
+# environment
+ACTIONPLANSERVICE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/supply-platform/action-plan-service/config-ci.json
+# environment
+PVH_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pvhstream/pvhreader/config-ci.json
+# environment
+FOODPREPARATIONAPI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-preparation-api/config-ci.json
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.75073885.75073891
+# environment
+SDEEEM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdeeemstream/sdeeemwriter/config-ci.json
+# environment
+PAYSI_NOTIFIER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-notifier/config-ci.json
+# environment
+TRANSITENGINE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/transit-engine/config-ci.json
+# environment
+FTE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ftestream/ftereader/config-ci.json
+# environment
+PHB_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/phbstream/phbreader/config-ci.json
+# environment
+PPU_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppustream/ppuwriter/config-ci.json
+# environment
+REWARD_OMEGA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/omega/config-ci.json
+# environment
+FDC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcstream/fdcreader/config-ci.json
+# environment
+VENTURE_EXTERNAL_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/venture-external/config-ci.json
+# environment
+FDCUE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcuestream/fdcuewriter/config-ci.json
+# environment
+FOOD_CE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-ce/config-ci.json
+# environment
+SHUTTLE_DASHBOARD_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dashboards/shuttle/config-ci.json
+# environment
+GRAB_PLACES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/grab-places/config-ci.json
+# environment
+QU_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/qustream/qureader/config-ci.json
+# environment
+FDCAMP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcampstream/fdcampwriter/config-ci.json
+# environment
+TCR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tcrstream/tcrreader/config-ci.json
+# environment
+PP_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/go-poi/poi-predictor/tools/pusher/config-ci.json
+# environment
+PG_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pgstream/pgwriter/config-ci.json
+# environment
+SPY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/secops/spy/config-ci.json
+# environment
+RTCMC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtcmcstream/rtcmcreader/config-ci.json
+# environment
+OLLY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/observability/olly/config-ci.json
+# environment
+TODOLIST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/todolist/config-ci.json
+# environment
+KRATOS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/marketing/kratos/config-ci.json
+# environment
+SDEHE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdehestream/sdehereader/config-ci.json
+# environment
+FSM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fsmstream/fsmreader/config-ci.json
+# environment
+REWARD_TARGETING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/targeting/config-ci.json
+# environment
+PAYSI_WEB_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-web/config-ci.json
+# environment
+TIER_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tierstream/tierreader/config-ci.json
+# environment
+THUMPER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/tools/thumper/config-ci.json
+# environment
+PDC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pdcstream/pdcwriter/config-ci.json
+# environment
+SDSA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdsastream/sdsareader/config-ci.json
+# environment
+FOODCART_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-cart/config-ci.json
+# environment
+DELV_INVENTORY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/delv/delv-inventory/config-ci.json
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+HS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hsstream/hsreader/config-ci.json
+# environment
+GEO_TOOLS_SMART_CITY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/geo-tools-smart-city/config-ci.json
+# environment
+RATE_LIMITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-api/rate-limiter/export/grpc-service/static-cluster/node-server/config-ci.json
+# environment
+ 
+FAR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/farstream/farreader/config-ci.json
+# environment
+FOODDAXCAPABILITY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-dax-capability/config-ci.json
+# environment
+DIC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dicstream/dicreader/config-ci.json
+# environment
+GRABBOT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/tools/grab-bot/config-ci.json
+# environment
+FDCOLLECTION_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdcollectionstream/fdcollectionwriter/config-ci.json
+# environment
+GRPEARLYGRP_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/grpearlygrpstream/grpearlygrpwriter/config-ci.json
+# environment
+SDEHI_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdehistream/sdehiwriter/config-ci.json
+# environment
+PPU_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ppustream/ppureader/config-ci.json
+# environment
+PH_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/phstream/phreader/config-ci.json
+# environment
+BOOTCAMPAGENTSERVICE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/bootcamp/bootcamp-agent-service/config-ci.json
+# environment
+SPRINKLER_STREAM_PROC_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/functions/processor/config-ci.json
+# environment
+MVI_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/mvistream/mviwriter/config-ci.json
+# environment
+EXPT_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/exptstream/exptreader/config-ci.json
+# environment
+FOOD_WATCHER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-watcher/config-ci.json
+# environment
+CA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/end/ca/config-ci.json
+# environment
+DS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dsstream/dswriter/config-ci.json
+# automatic
+<F = $(notdir $<)
+# environment
+POICHG_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/poichgstream/poichgwriter/config-ci.json
+# environment
+EXE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/exestream/exewriter/config-ci.json
+# environment
+FRR_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/frrstream/frrreader/config-ci.json
+# environment
+DS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dsstream/dsreader/config-ci.json
+# environment
+ 
+GA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/messaging/grab-attention/grab-attention-ci.json
+# environment
+FDI_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdistream/fdiwriter/config-ci.json
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+DLS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dlsstream/dlswriter/config-ci.json
+# environment
+GOPRIVATE = gitlab.myteksi.net
+# environment
+BAMBI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/tools/bambi/config-ci.json
+# environment
+MS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/msstream/msreader/config-ci.json
+# environment
+DOHE_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dohestream/dohewriter/config-ci.json
+# environment
+GRABCONNECT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-connect/config-ci.json
+# environment
+SUBS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/subsstream/subswriter/config-ci.json
+# environment
+POI_QUERY_PARSER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/poi-query-parser/config-ci.json
+# environment
+ESD_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/esdstream/esdwriter/config-ci.json
+# environment
+OVERLAYOVOPOINTSADAPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/overlay-adapters/ovo-points-adapter/config-ci.json
+# environment
+CONAN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/conan/config-ci.json
+# environment
+XENOSWORKER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/xenos/config-ci.json
+# environment
+FSD_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fsdstream/fsdwriter/config-ci.json
+# environment
+PAYSI_CPE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/paysi-cpe/config-ci.json
+# environment
+LOC_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/locstream/locreader/config-ci.json
+# environment
+APPEASEMENTS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ce/appeasements/config-ci.json
+# environment
+FPDS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fpdsstream/fpdswriter/config-ci.json
+# environment
+DCE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dcestream/dcereader/config-ci.json
+# environment
+GAMING_CREDIT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/saptf/gaming/gaming-credit/config-ci.json
+# environment
+EXO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/exostream/exoreader/config-ci.json
+# environment
+GID_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gidstream/gidreader/config-ci.json
+# environment
+GRAB_MALL_CMS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-food/grab-mall-cms/config-ci.json
+# environment
+FAS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fasstream/fasreader/config-ci.json
+# environment
+SPRINKLER_FLAG_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/sprinkler/functions/flag/config-ci.json
+# environment
+PG_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pgstream/pgreader/config-ci.json
+# environment
+SS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ssstream/ssreader/config-ci.json
+# environment
+PARTNER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/pe/partner-engineering/partner-engineering-ci.json
+# environment
+HS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hsstream/hswriter/config-ci.json
+# environment
+INVOICING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/financecortex/invoicing/config-ci.json
+# environment
+PROTO_PATH = /usr/local/protoc
+# environment
+SESSIONMANAGER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-id/sessionmanager/config-ci.json
+# environment
+RTTWAY_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rttwaystream/rttwayreader/config-ci.json
+# environment
+TS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tsstream/tsreader/config-ci.json
+# automatic
+^F = $(notdir $^)
+# environment
+MYSQL_PORT = 3306
+# environment
+PTS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ptsstream/ptswriter/config-ci.json
+# environment
+GHA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/ghastream/ghawriter/config-ci.json
+# environment
+HCA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/hcastream/hcawriter/config-ci.json
+# environment
+PAYSICORE_ADAPTER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysicore-adapter/config-ci.json
+# environment
+CANOPY_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/canopy/config-ci.json
+# environment
+TIER_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tierstream/tierwriter/config-ci.json
+# environment
+X_SEGWRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/segwriter/config-ci.json
+# environment
+TAS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tasstream/tasreader/config-ci.json
+# environment
+FOODSEARCH_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-search/config-ci.json
+# environment
+TRAFFIC_API_DATASTORE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/traffic-api-datastore/config-ci.json
+# environment
+FDS_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdsstream/fdswriter/config-ci.json
+# environment
+FDMF_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmfstream/fdmfwriter/config-ci.json
+# environment
+REWARDS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/rewards/rewards/config-ci.json
+# environment
+INSR_CRAWL_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/gfg/insurance/insr-crawl/config-ci.json
+# environment
+FAVES_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/faves/config-ci.json
+# environment
+FACE_RECOGNITION_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/face-recognition/config-ci.json
+# environment
+PAYSI_COMPLIANCE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysi-compliance/config-ci.json
+# environment
+BSCALLBACK_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/bscallback/config-ci.json
+# environment
+ 
+VE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/vestream/vereader/config-ci.json
+# environment
+APS_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/apsstream/apsreader/config-ci.json
+# environment
+PBEB_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pbebstream/pbebwriter/config-ci.json
+# environment
+PAXPOI_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/paxpoistream/paxpoiwriter/config-ci.json
+# environment
+DSA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dsastream/dsareader/config-ci.json
+# environment
+SEH_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sehstream/sehwriter/config-ci.json
+# environment
+XGROUPGENERATOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/generator/config-ci.json
+# environment
+RT_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtstream/rtwriter/config-ci.json
+# environment
+CO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/costream/coreader/config-ci.json
+# environment
+CERBERUS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/cerberus/config-ci.json
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+EXPRESS_DASHBOARD_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dashboards/express/config-ci.json
+# environment
+ADMANAGER_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/admanagerstream/admanagerwriter/config-ci.json
+# environment
+SUMATRA_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-data/sumatra/config-ci.json
+# environment
+MEX_ONBOARDING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/mex-onboarding/config-ci.json
+# environment
+HELLO_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/incentives/hello/config-ci.json
+# environment
+RTC_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/rtcstream/rtcwriter/config-ci.json
+# environment
+FPM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fpmstream/fpmreader/config-ci.json
+# environment
+SEXTANTFEEDERKIT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/sextantfeeder/kit/sextantfeeder/config-ci.json
+# environment
+DAP_GANDALF_TEST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/dap/gandalftests/gandalf-config-ci.json
+# environment
+FOOD_DATA_PROPAGATOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-data-propagator/config-ci.json
+# environment
+FOOD_CANAL_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-canal/config-ci.json
+# environment
+TEH_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/tehstream/tehwriter/config-ci.json
+# environment
+DSL_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dslstream/dslwriter/config-ci.json
+# environment
+COGNITION_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/cognition-api/config-ci.json
+# environment
+CGB_CORE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/cgb-core/config-ci.json
+# environment
+SDSAV3_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdsav3stream/sdsav3reader/config-ci.json
+# environment
+MCD_CONSUMER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-x/mcd-consumer/config-ci.json
+# environment
+ARCHIVIST_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/user-trust/archivist/config-ci.json
+# environment
+REDIS_HOST = localhost
+# environment
+BOOTCAMP_BOOKINGS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/bootcamp/bootcamp-bookings/config-ci.json
+# environment
+FCP_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fcpstream/fcpreader/config-ci.json
+# environment
+ENTERPRISE_BOT_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/enterprise/enterprise-bot/config-ci.json
+# environment
+ALERTADVISOR_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/sre/alertadvisor/config-ci.json
+# environment
+DACE_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/dacestream/dacereader/config-ci.json
+# environment
+GANDALF_SLACK_NOTIFICATION_CONFIG = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/automation/gandalf/cmd/gandalf-slack/.gandalf-notifications.yml
+# environment
+PI_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/incentives/pi/config-ci.json
+# environment
+MUSTANG_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/mustang/config-ci.json
+# environment
+LANG = C
+# environment
+POI_GEOCODING_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/poi-geocoding/config-ci.json
+# environment
+PBO_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pbostream/pboreader/config-ci.json
+# environment
+SUBSCRIPTION_CORE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/marketing/subscription-core/config-ci.json
+# environment
+ 
+WORKFORCE_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/ce/workforce-api/config-ci.json
+# environment
+GFORM_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/gformstream/gformreader/config-ci.json
+# environment
+FOODHUATUO_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/food/food-huatuo/config-ci.json
+# environment
+GRABID_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dispatcher/grab-id/grab-id-ci.json
+# environment
+PAYSICORE_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-pay/paysicore/paysicore-ci.json
+# environment
+VSCODE_PID = 21308
+# environment
+BS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-bag/bookings/bookings-ci.json
+# environment
+GEO_TOOLS_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/geo/geo-tools/config-ci.json
+# environment
+FSM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fsmstream/fsmwriter/config-ci.json
+# environment
+PCA_STREAM_READER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/pcastream/pcareader/config-ci.json
+# environment
+TEX_RAINBOW_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/transport/tex-rainbow/config-ci.json
+# environment
+FDM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdmstream/fdmwriter/config-ci.json
+# environment
+SDSA_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/sdsastream/sdsawriter/config-ci.json
+# environment
+FDIV2_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/fdiv2stream/fdiv2writer/config-ci.json
+# environment
+EXPM_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/expmstream/expmwriter/config-ci.json
+# environment
+GOBLIN_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/dax-exp/goblin/config-ci.json
+# environment
+XEBMSG_STREAM_WRITER_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/streams/apis/xebmsgstream/xebmsgwriter/config-ci.json
+# environment
+GRAB_WORLD_API_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/grab-world-api/config-ci.json
+# environment
+PROMO_CONF = /Users/manshan.chiu/gopath/src/gitlab.myteksi.net/gophers/go/marketing/promo/config-ci.json
+# variable set hash-table stats:
+# Load=1233/2048=60%, Rehash=1, Collisions=3179/2219=143%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 44569843): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+deploy-manager: setup-credential
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 4):
+	cd manager && docker build -t gitlab-runner-manager .
+	docker tag gitlab-runner-manager:latest ${ECR_URI}/${ECR_REPO}:manager
+	docker push ${ECR_URI}/${ECR_REPO}:manager
+	
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2021-12-02 18:56:47
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+deploy-runner: setup-credential
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 8):
+	cd runner && docker build -t gitlab-runner .
+	docker tag gitlab-runner:latest ${ECR_URI}/${ECR_REPO}:runner
+	docker push ${ECR_URI}/${ECR_REPO}:runner
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+setup-credential:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin ${ECR_URI}
+	
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/21=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Mon Jul 18 13:31:48 2022
+
+ 
